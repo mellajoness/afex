@@ -22,18 +22,18 @@ const SellTable = () => {
     },[])
 
   const getProduct=async()=>{ 
-      const endpoint =  `/api/v1/users`;
+      const endpoint =  `/api/security-price/live`;
       console.log('endpoint',endpoint)
       setLoading(!loading)
         try {
           const response = await GET_SERVICE(endpoint)
           .then(response => response.json())
           .then(data=> {
-              console.log('product',data)
+              console.log('product',data.data)
             setLoading(loading)
           if(data)
              {
-              setProduct(data)
+              setProduct(data.data)
              }
           else
             {
@@ -94,7 +94,7 @@ const SellTable = () => {
              <td className={styles.tabledata}>Buy</td>
              <td className={styles.tabledata}>{prod.price}</td>
              <td className={styles.tabledata}>9265</td>
-             <td className={styles.tabledata}>{moment(prod.createdAt).format('D MMM YYYY')}</td>
+             <td className={styles.tabledata}>{moment(prod.created).format('D MMM YYYY')}</td>
              <td className={styles.tabledata}>{moment(prod.created).format('h:mm')}</td>
           </tr>
           )}

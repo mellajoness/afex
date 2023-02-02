@@ -1,5 +1,5 @@
 
- const baseUrl='https://6270020422c706a0ae70b72c.mockapi.io/lendsqr'
+ const baseUrl='https://comx-sand-api.afexnigeria.com'
 
 
  export async function  GET_SERVICE(endpoint: any) {
@@ -8,8 +8,6 @@
              method: "get",
              headers: {
              'Content-Type': 'application/json',
-             'KEY':"uEKBcN7kMKayW6SF8d0BtaJq60Musbp0",
-             'VECTOR':"hA7wB3e4v87ihj6R"
              }
          };
      try {

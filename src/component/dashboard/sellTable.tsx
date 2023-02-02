@@ -21,7 +21,7 @@ const SellTable = () => {
     },[])
 
   const getProduct=async()=>{ 
-      const endpoint =  `/api/v1/users`;
+      const endpoint = `/api/security-price/live`;
       console.log('endpoint',endpoint)
       setLoading(!loading)
         try {
@@ -32,7 +32,7 @@ const SellTable = () => {
             setLoading(loading)
           if(data)
              {
-              setProduct(data)
+              setProduct(data.data)
              }
           else
             {
