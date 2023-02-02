@@ -1,0 +1,48 @@
+.parent{
+    background-color: white;
+}
+.firstRow{
+    display: flex;
+    padding: 1em;
+    overflow-x: auto;
+}
+.board{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;  
+    color: #1E1E1E; 
+}
+.active{
+    background: #D71E0E;
+    border-radius: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    padding: 0.5em 0.9em;
+    margin-left: 1.6em;
+}
+.otc{
+    background: #F8FAFB;;
+    border-radius: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E1E1E;
+    align-items: center;
+    display: flex;
+    padding: 0.5em 0.9em;
+    margin-left: 1.6em;
+
+}

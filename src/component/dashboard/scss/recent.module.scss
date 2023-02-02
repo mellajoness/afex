@@ -1,0 +1,64 @@
+.parent{
+    background-color: white;
+    border-radius: 2px;
+    padding: 1em 0em;
+}
+.input{
+    font-size: 0.7em;
+    border: none;
+    width: 90%;
+    background: #F8FAFB;
+    padding-left: 0.5em;
+}
+.searchDiv{
+    display: flex;
+    align-items: center;
+    background: #F8FAFB;
+    border: 1px solid #D6D6D6;
+    border-radius: 2px;
+    width: 90%;
+    align-self: center;
+    justify-content: center;
+    margin:0em 0.5em ;
+   
+}
+.iconSearch{
+    width: 15px;
+    align-self: center;
+}
+.row{
+   display: flex;
+   align-items: center;
+//    justify-content: space-around;
+   padding: 0.7em 1.5em;
+}
+.rowActive{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.7em 1.2em;
+    background: #F8FAFB;
+    margin: 0em 0.4em;
+ }
+ .iconDiv{
+    width: 30%;
+ }
+ .itemDiv{
+    width: 70%;
+ }
+.itemname{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 16px;
+    color: #1E1E1E;    
+}
+.itemnameActive{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 16px;
+    color: #D71E0E;    
+}

@@ -1,0 +1,57 @@
+.parent{
+    width: 100%;
+    background-color: white;
+    margin-top: 1em;
+}
+.tablehead{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 14px;
+    color: #778CA2; 
+}
+.tabledata{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 16px;
+    color: #1E1E1E;
+}
+.tabledataPrice{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 16px;
+    color:  #E55541;
+}
+.buyBox{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 16px;
+    color:  #E55541;
+    border: 0.8px solid #E55541;
+    border-radius: 2px;
+    padding: 0.2em 0em;
+    text-align: center;
+}
+.tradeDiv{
+    height: 40px;
+    background-color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.78em;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    color: #778CA2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-left: 1em;
+}
