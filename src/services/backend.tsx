@@ -1,5 +1,5 @@
 
- const baseUrl='https://comx-sand-api.afexnigeria.com'
+ const baseUrl='https://6270020422c706a0ae70b72c.mockapi.io/lendsqr'
 
 
  export async function  GET_SERVICE(endpoint: any) {
