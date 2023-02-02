@@ -8,6 +8,8 @@
              method: "get",
              headers: {
              'Content-Type': 'application/json',
+             'KEY':"uEKBcN7kMKayW6SF8d0BtaJq60Musbp0",
+             'VECTOR':"hA7wB3e4v87ihj6R"
              }
          };
      try {
